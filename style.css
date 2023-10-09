@@ -1,0 +1,89 @@
+body {
+    background-color: #71aaa4;
+    background-image: url( img/จิตกรรมฝาผนัง.jpg);
+    
+  }
+  .navbar{
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+}
+  .logo{
+    color: #fbfafa;
+    font-size: 35px;
+    font-variant: small-caps;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 23px
+}
+.menu{
+    display: block;
+    padding: 10px;
+    width: 1000px;
+    margin-left: 50%;
+    height: 70px;
+}
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li{
+    list-style: none;
+    margin-left: 42px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+ul li a:hover{
+    color: rgb(169, 161, 4);
+}
+
+main {
+    width: 360px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 150px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 240px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #f5b410;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: #F6C8B6;
+}
+

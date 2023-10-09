@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(239, 170, 182);
+
+    background-position: center;
+ 
+ 
+}
+main {
+    width: 800px;
+    height: auto;
+    margin: 10px auto 20px ; /* จาก 40px ที่เดิมเป็น 0 บน */
+    color: #040404;
+    position: relative;
+    max-width: 900px;
+    overflow: auto; /* เพิ่มการเลื่อนกรอบหากมีเนื้อหาเพิ่มขึ้น */
+    padding: 10px 100px; /* เพิ่ม padding เพื่อลดความสูง */
+    border-radius: 5px;
+   
+    
+}
+
+.form-group {
+    margin-bottom:130px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+textarea {
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #740202;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+button[type="submit"] {
+    background-color: #5e1638;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="ตอบกลับ"]:hover {
+    background-color: #c13f4e;
+}
+
+/* ปรับการแสดงเนื้อหาหลัก */
+.content {
+    margin-left: 270px; /* กำหนดระยะห่างด้านซ้ายของเนื้อหาหลัก */
+    padding: 20px; /* ระยะห่างของเนื้อหาหลัก */
+}
+#logoutBtn {
+    background-color: #c10b0b;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#logoutBtn:hover {
+    background-color: #c13f4e;
+}
+.navbar{
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #598a34;
+    font-size: 45px;
+    font-variant: small-caps;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 25px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #978d03;
+}
+
+.reply-li{
+
+}

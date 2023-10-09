@@ -1,0 +1,134 @@
+body {
+    background-image:#eff1ec ;
+    background: #607d8b;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #F2E9D3;
+    font-size: 35px;
+    font-variant: small-caps;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 25px
+}
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 52px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#e4d4bc ;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ee770e;
+}
+.main-content 
+    {
+        width: 1000px;
+        height: auto;
+        margin: 40px auto 20px; /* จาก 40px ที่เดิมเป็น 0 บน */
+        color: #040404;
+        position: relative;
+        max-width: 800px;
+        overflow: auto; /* เพิ่มการเลื่อนกรอบหากมีเนื้อหาเพิ่มขึ้น */
+        padding: 20px 40px; /* เพิ่ม padding เพื่อลดความสูง */
+        border-radius: 5px;
+     
+
+    }
+    .main-content p {
+        font-size: 20px; /* ขนาดตัวอักษร */
+        line-height: 1.5; /* ระยะห่างระหว่างบรรทัด */
+        color: #ebeb91; /* สีข้อความ */
+    }
+    form {
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display:    block;
+        font-weight: bold;
+    }
+     
+    
+    /* ปรับสไตล์สำหรับ .profile */
+    .profile {
+        background-color: rgba(255, 246, 246, 0.9);
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    
+    .profile h2 {
+        color: #333;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .profile p {
+        color: #666;
+        font-size: 16px; /* ปรับขนาดตัวอักษรให้เหมือนกับส่วนอื่น ๆ */
+        margin-bottom: 20px;
+    }
+    
+    
+    #logoutBtn {
+        background-color: #e21515;
+        padding: 10px 20px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    #logoutBtn:hover {
+        background-color: #fcff48;
+    }
+    /* ปรับสไตล์สำหรับลิงก์ "แก้ไข" และ "เพิ่มกระทู้" */
+    .edit-link, .add-post-link {
+        text-decoration: none;
+        background-color: #277292;
+        color: rgb(255, 255, 255);
+        padding: 8px 16px;
+        border-radius: 3px;
+        margin-left: 10px;
+        display: inline-block;
+    }
+    
+    .edit-link:hover, .add-post-link:hover {
+        background-color: #45a049;
+    }

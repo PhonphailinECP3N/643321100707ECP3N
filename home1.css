@@ -1,0 +1,85 @@
+body{
+    background: rgb(248, 248, 189);
+}
+.navbar{
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #1532b6;
+    font-size: 35px;
+    font-variant: small-caps;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 25px
+}
+.menu{
+    display: block;
+    width: 400px;
+    margin-left: 50%;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #01579b;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #a09301;
+}
+.content {
+    margin-left: 370px; /* กำหนดระยะห่างด้านซ้ายของเนื้อหาหลัก */
+    padding: 50px; /* ระยะห่างของเนื้อหาหลัก */
+}
+#logoutBtn {
+    background-color: #f12020;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#logoutBtn:hover {
+    background-color: #f3e526;
+}
+.content {
+    width: 700px;
+    height: auto;
+    margin: auto 2px ; /* จาก 40px ที่เดิมเป็น 0 บน */
+    color: #040404;
+    position: relative;
+    max-width: 800px;
+    overflow: auto; /* เพิ่มการเลื่อนกรอบหากมีเนื้อหาเพิ่มขึ้น */
+    padding: 50px 70px; /* เพิ่ม padding เพื่อลดความสูง */
+    border-radius: 100px;
+    background-color: white;
+}
+
+
+
+
